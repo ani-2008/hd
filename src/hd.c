@@ -35,7 +35,7 @@ int main()
         printf("   "); 
     }
 
-    printf("  |%s|", s);
-    printf("\n");
+    printf("  |%s|\n", s);
+    printf("%.8x \n",mem_i);
     free(s);
 }
